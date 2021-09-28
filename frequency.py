@@ -1,7 +1,7 @@
 import re
 
 # Opens and creates files for processing
-file = open('ward_text.txt', 'r+').read()
+file = open('EXAMPLE.txt', 'r+').read()
 analysis_report = open('analysis_report.txt', 'a+', encoding='utf8')
 
 # Locates numbers within the text CDR file
